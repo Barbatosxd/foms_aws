@@ -1,8 +1,8 @@
 <?php
 session_start();
-$servername = "arif-fs.mysql.database.azure.com";
-$server_user = "arif";
-$server_pass = "@Arif2003";
+$servername = getenv("DB_HOSTNAME");
+$server_user = getenv("DB_USERNAME");
+$server_pass = getenv("DB_PASSWORD");
 $dbname = "foms_db";
 if(isset($_SESSION['name']))
 $name = $_SESSION['name'];
