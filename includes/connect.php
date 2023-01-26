@@ -1,6 +1,6 @@
 <?php
 session_start();
-$servername = "my-db.cdlocju08nwb.us-east-1.rds.amazonaws.com";
+$servername = "my-publicdb.cdlocju08nwb.us-east-1.rds.amazonaws.com";
 $server_user = "admin";
 $server_pass = "password";
 $dbname = "foms_db";
