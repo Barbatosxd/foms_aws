@@ -1,8 +1,8 @@
 <?php
 session_start();
-$servername = getenv("DB_HOSTNAME");
-$server_user = getenv("DB_USERNAME");
-$server_pass = getenv("DB_PASSWORD");
+$servername = "my-db.cdlocju08nwb.us-east-1.rds.amazonaws.com";
+$server_user = "admin";
+$server_pass = "password";
 $dbname = "foms_db";
 if(isset($_SESSION['name']))
 $name = $_SESSION['name'];
